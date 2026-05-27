@@ -95,13 +95,13 @@
 	</head>
 	<body>
 		<div class="container">
-			<h2>Выполненные задачи за 26.05.2026</h2>
+			<h2>Выполненные задачи за 27.05.2026</h2>
 
 			<div id="cardsContainer"></div>
 		</div>
 
 		<script>
-			const requests = [{"Отдел":"HR","Апдейты":"Открыл почту, добавил в СРМ","Инициатор":"Эмир Нарметов","Крайний срок":"2026-05-26","Ответственный":["Аваз"],"Тема обращения":"регистрация сотрудника","Описание задачи / проблемы":"Кадровый дело производитель Юлия Жукова 1980 31 июля "},{"Отдел":"Маркетинг","Апдейты":"Получили вебхук от Чинор.\nДля получения токена используем oauth ендпоинт с Grant Type client_credentials.\nURL: https://uzconsole.chinor.tech/api/oauth2/token\nClient ID: megawatt_bot\nClient Secret: 4vsxzq63zr\nПример запроса через curl:\ncurl --location 'https://uzconsole.chinor.tech/api/oauth2/token' \\\n--header 'Content-Type: application/x-www-form-urlencoded' \\\n--header 'Authorization: Basic bWVnYXdhdHRfYm90OjR2c3h6cTYzenI=' \\\n--data-urlencode 'grant_type=client_credentials'\nЗапрос на импорт отправлять на юрл, с токеном, который получили выше:\nhttps://uzconsole.chinor.tech/api/webhooks/importCall\nhttps://uzconsole.chinor.tech/api/webhooks/importCalls\nДетали можно посмотреть в расшаренной Open API спеке.\nНаписал Скрипт, все запрошенные данные отправляется в кабинет чинор.","Инициатор":"Олег Акишкин","Крайний срок":"2026-05-26","Ответственный":["Аваз"],"Тема обращения":"Chinor AI (API)","Описание задачи / проблемы":"Нужно вытаскивать звонки с онлайнПБХ и отправлять в АПИ Чинор."},{"Отдел":"HR","Апдейты":"Открыл почту, добавил в СРМ","Инициатор":"Эмир Нарметов","Крайний срок":"2026-05-25","Ответственный":["Аваз"],"Тема обращения":"регистрация сотрудника","Описание задачи / проблемы":"Рекрутер СНТ Руссу Камила 20 июля 2002 так же открыть почту яндекс"}];
+			const requests = [{"Отдел":null,"Апдейты":null,"Инициатор":null,"Крайний срок":null,"Ответственный":null,"Тема обращения":null,"Описание задачи / проблемы":null}];
 
 			function formatDate(dateString) {
 			    const date = new Date(dateString);
